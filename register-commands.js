@@ -6,6 +6,10 @@ const commands = [
         name: 'ping',
         description: 'Replies with Pong!',
     },
+    {
+        name: 'regroles',
+        description: 'Admin Command - Registers Roles for the Achievements',
+    },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_BOT_TOKEN);
